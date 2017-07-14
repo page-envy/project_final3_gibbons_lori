@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#11110E;" d="M488.342,249.862c0-131.882-106.91-238.783-238.783-238.783
+	S10.776,117.98,10.776,249.862c0,131.874,106.91,238.775,238.783,238.775S488.342,381.735,488.342,249.862z"/>
+<path style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M449.451,249.862c0-110.398-89.495-199.893-199.893-199.893
+	S49.666,139.464,49.666,249.862c0,110.389,89.495,199.884,199.893,199.884S449.451,360.251,449.451,249.862z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M388.131,249.862c0-76.532-62.041-138.572-138.572-138.572c-76.532,0-138.572,62.041-138.572,138.572
+			c0,76.523,62.041,138.564,138.572,138.564C326.09,388.426,388.131,326.385,388.131,249.862z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M388.131,249.862
+		c0-76.532-62.041-138.572-138.572-138.572c-76.532,0-138.572,62.041-138.572,138.572c0,76.523,62.041,138.564,138.572,138.564
+		C326.09,388.426,388.131,326.385,388.131,249.862z"/>
+	<g style="clip-path:url(#SVGID_2_);">
+		<rect x="149.877" y="103.055" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F16447;" width="98.041" height="109.53"/>
+		<rect x="219.224" y="61.284" style="fill-rule:evenodd;clip-rule:evenodd;fill:#A1B83B;" width="98.05" height="109.53"/>
+		<rect x="239.962" y="163.066" style="fill-rule:evenodd;clip-rule:evenodd;fill:#B2C35E;" width="98.042" height="109.53"/>
+	</g>
+	<g style="clip-path:url(#SVGID_2_);">
+		<rect x="194.304" y="223.007" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F16447;" width="98.041" height="109.53"/>
+		<rect x="263.651" y="181.235" style="fill-rule:evenodd;clip-rule:evenodd;fill:#A1B83B;" width="98.05" height="109.53"/>
+		<rect x="284.388" y="283.017" style="fill-rule:evenodd;clip-rule:evenodd;fill:#B2C35E;" width="98.042" height="109.53"/>
+	</g>
+	<g style="clip-path:url(#SVGID_2_);">
+		<rect x="16.598" y="267.433" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F16447;" width="98.041" height="109.53"/>
+		<rect x="85.945" y="225.661" style="fill-rule:evenodd;clip-rule:evenodd;fill:#A1B83B;" width="98.05" height="109.53"/>
+		<rect x="106.683" y="327.443" style="fill-rule:evenodd;clip-rule:evenodd;fill:#B2C35E;" width="98.042" height="109.53"/>
+	</g>
+	<g style="clip-path:url(#SVGID_2_);">
+		
+			<rect x="144.087" y="244.588" transform="matrix(0.2861 -0.9582 0.9582 0.2861 -156.2081 434.348)" style="fill-rule:evenodd;clip-rule:evenodd;fill:#F16447;" width="138.585" height="154.829"/>
+		<polygon style="fill-rule:evenodd;clip-rule:evenodd;fill:#A1B83B;" points="130.493,122.63 90.847,255.424 239.198,299.72 
+			278.844,166.918 		"/>
+		
+			<rect x="261.787" y="146.828" transform="matrix(0.2861 -0.9582 0.9582 0.2861 21.5033 477.3462)" style="fill-rule:evenodd;clip-rule:evenodd;fill:#B2C35E;" width="138.593" height="154.829"/>
+	</g>
+</g>
+<circle style="fill:#00A99D;" cx="255.988" cy="256.29" r="95.444"/>
+<circle cx="255.988" cy="256.29" r="66.64"/>
+<circle style="fill:#FFFFFF;" cx="223.016" cy="252.195" r="24.783"/>
+</svg>

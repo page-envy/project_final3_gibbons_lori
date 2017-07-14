@@ -1,11 +1,23 @@
+/*TABLE OF CONTENTS
+1.0 STYLING REMINDERS
+2.0 DOCUMENT SETUP
+3.0 NAVIGATION STYLING
+    3.1 GENERAL ELEMENT STYLING
+4.0 HEADER STYLING
+5.0 SECTIONS STYLING
+6.0 FOOTER STYLING
+7.0 MEDIA QUERIES
+
+/* SECTION  1.0 -----------------------------*/
+/* STYLING REMINDERS -----------------------------*/
 /*
-DOCUMENT COLORS
+DOCUMENT COLORS:::
 Green						9a9e08     9a9e08
 Light Green			cad309    202	211	9
 Red							bc1919    188 25 25
 Grey						dbdbda    219 219 218
 
-FONTS:
+FONTS:::
 Menu
 font-family: 'Megrim', cursive;
 Heads
@@ -13,6 +25,8 @@ font-family: 'Nosifer', cursive;
 Headlines and p:
 font-family: 'Montserrat', sans-serif;
 */
+/* SECTION  2.0 -----------------------------*/
+/* DOCUMENT SETUP -----------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -78,6 +92,9 @@ p a:hover, p a:active {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
+/* SECTION  3.0 -----------------------------*/
+/* NAVIGATION STYLING -----------------------------*/
+/*
 /*Menu underline effect  http://tobiasahlin.com/blog/css-trick-animating-link-underlines/  */
 nav ul li a {
     position: relative;
@@ -110,6 +127,8 @@ nav ul li a {
 nav ul li a:link, nav ul li a:visited{
     color: black;
 }
+/* SECTION  3.1 -----------------------------*/
+/* GENERAL ELEMENT STYLING -----------------------------*/
 h1 {
     display: none;
     font-family: 'Montserrat', sans-serif;
@@ -134,8 +153,8 @@ time {
     padding: 10px;
     font-size: .9rem;
 }
-
-/*HEADER*/
+/* SECTION  4.0 -----------------------------*/
+/* HEADER STYLING -----------------------------*/
 html {
     background-color: #dbdbda;
 }
@@ -170,7 +189,8 @@ header img:nth-of-type(2){
     margin: auto;
     max-width: 550px;
 }
-/*SECTION*/
+/* SECTION  5 -----------------------------*/
+/* SECTIONS STYLING -----------------------------*/
 #sectioncontainer {
     margin: auto;
     padding-top: 15px;
@@ -186,7 +206,8 @@ section article img {
     display: block;
     margin: auto;
 }
-/*FOOTER*/
+/* SECTION  6 -----------------------------*/
+/* FOOTER STYLING -----------------------------*/
 #footercontainer {
     padding: 20px;
 }
@@ -271,7 +292,8 @@ footer img:nth-of-type(4) {
     -moz-animation: wiggle 0.3s infinite;
     animation: wiggle 0.3s infinite;
 }
-/*MEDIA QUERIES*/
+/* SECTION  7 -----------------------------*/
+/* MEDIA QUERIES -----------------------------*/
 @media (min-width: 600px) {
     footer p {
         font-size: 0.8rem;

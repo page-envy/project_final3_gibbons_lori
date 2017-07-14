@@ -189,7 +189,7 @@ header img:nth-of-type(2){
     margin: auto;
     max-width: 550px;
 }
-/* SECTION  5 -----------------------------*/
+/* SECTION  5.0 -----------------------------*/
 /* SECTIONS STYLING -----------------------------*/
 #sectioncontainer {
     margin: auto;
@@ -206,7 +206,7 @@ section article img {
     display: block;
     margin: auto;
 }
-/* SECTION  6 -----------------------------*/
+/* SECTION  6.0 -----------------------------*/
 /* FOOTER STYLING -----------------------------*/
 #footercontainer {
     padding: 20px;
@@ -292,7 +292,7 @@ footer img:nth-of-type(4) {
     -moz-animation: wiggle 0.3s infinite;
     animation: wiggle 0.3s infinite;
 }
-/* SECTION  7 -----------------------------*/
+/* SECTION  7.0 -----------------------------*/
 /* MEDIA QUERIES -----------------------------*/
 @media (min-width: 600px) {
     footer p {

@@ -47,7 +47,6 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
     margin: auto;
 }
 /*BUTTON STYLING*/
-
 .button {
     display: block;
     margin: auto;
@@ -147,6 +146,11 @@ nav h2 {
 }
 h3 {
     font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+h4 {
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }

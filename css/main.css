@@ -213,6 +213,16 @@ section article img {
     display: block;
     margin: auto;
 }
+iframe {
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+iframe:nth-of-type(1) {
+    display: block;
+}
+iframe:nth-of-type(2) {
+    display: none;
+}
 /* SECTION  6.0 -----------------------------*/
 /* FOOTER STYLING -----------------------------*/
 #footercontainer {
@@ -319,6 +329,12 @@ footer img:nth-of-type(4) {
     }
 }
 @media (min-width: 900px) {
+    iframe:nth-of-type(1){
+        display: none;
+    }
+    iframe:nth-of-type(2){
+        display: block;
+    }
     section article {
         width: calc(100% / 3 - 2%);
         margin: 10px 1%;

@@ -223,6 +223,16 @@ iframe:nth-of-type(1) {
 iframe:nth-of-type(2) {
     display: none;
 }
+/* FORM  */
+
+input {
+    padding: 1rem 0;
+    border: 1px solid #ccc;
+    width: 100%;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #9a9e08;
+}
 /* SECTION  6.0 -----------------------------*/
 /* FOOTER STYLING -----------------------------*/
 #footercontainer {

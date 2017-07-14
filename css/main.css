@@ -1,0 +1,321 @@
+/*
+DOCUMENT COLORS
+Green						9a9e08     9a9e08
+Light Green			cad309    202	211	9
+Red							bc1919    188 25 25
+Grey						dbdbda    219 219 218
+
+FONTS:
+Menu
+font-family: 'Megrim', cursive;
+Heads
+font-family: 'Nosifer', cursive;
+Headlines and p:
+font-family: 'Montserrat', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+article, aside, details, figcaption, figure, main, nav, section, summary {
+    margin: 10px 10px;
+}
+#sitecontainer {
+    max-width: 1300px;
+    margin: auto;
+}
+/*BUTTON STYLING*/
+
+.button {
+    display: block;
+    margin: auto;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Nosifer', cursive;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    -moz-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttonappearance {
+    background-color: #bc1919;
+    color: white;
+    border: 2px solid #bc1919;
+    margin-bottom: 10px;
+}
+.buttonappearance:hover {
+    background-color: rgb(232, 107, 90);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+}
+/*LINK ATTRIBUTES*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #9a9e08;
+}
+a:hover, a:active {
+    color: #bc1919
+}
+/*Paragraph link hover background color
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more*/
+p a:link {
+    color: black;
+    border-bottom: 3px solid #bc1919;
+}
+p a:hover, p a:active {
+    color: white;
+    background-color: rgb(187, 25, 25);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+/*Menu underline effect  http://tobiasahlin.com/blog/css-trick-animating-link-underlines/  */
+nav ul li a {
+    position: relative;
+}
+nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: #bc1919;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+nav ul li a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/*FONTS*/
+nav ul li a {
+    font-family: 'Megrim', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+nav ul li a:link, nav ul li a:visited{
+    color: black;
+}
+h1 {
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font-size: 2rem;
+    padding: 10px;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+}
+nav h2 {
+    display: none;
+}
+h3 {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+p,
+time {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: .9rem;
+}
+
+/*HEADER*/
+html {
+    background-color: #dbdbda;
+}
+/*Parallax instructions:
+https://www.w3schools.com/howto/howto_css_parallax.asp*/
+.parallax {
+    background-image: url('../img/woodbackground.png');
+    width: 100%;
+    padding-bottom: 15px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+}
+nav ul li {
+    text-align: center;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    color: #bc1919;
+}
+header img:nth-of-type(1){
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 550px;
+}
+header img:nth-of-type(2){
+    display: block;
+    margin: auto;
+    max-width: 550px;
+}
+/*SECTION*/
+#sectioncontainer {
+    margin: auto;
+    padding-top: 15px;
+}
+section article {
+    background-color: white;
+    width: 90%;
+    display: block;
+    margin: 10px 5%;
+}
+section article img {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+/*FOOTER*/
+#footercontainer {
+    padding: 20px;
+}
+footer {
+    background-color: #262727;
+    position: relative;
+}
+#address {
+    width: 60%;
+    float: left;
+    display: block;
+    margin: 2% auto;
+}
+footer p {
+    color: white;
+    text-align: center;
+    line-height: 4px;
+    font-size: 0.6rem;
+}
+footer h2 {
+    font-size: 1rem;
+    color: white;
+    line-height: 25px;
+    color: #9a9e08;
+}
+footer img:nth-of-type(1) {
+    width: 20%;
+    max-width: 200px;
+    float: left;
+    padding: 7% 0;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+footer img:nth-of-type(2) {
+    display: none;
+    width: 0%;
+}
+footer img:nth-of-type(3) {
+    display: none;
+    width: 0%;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+footer img:nth-of-type(4) {
+    width: 20%;
+    max-width: 200px;
+    float: right;
+    padding: 7% 0;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+/*CLEAR FIX*/
+#footercontainer::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+/*WIGGLER https://harrybailey.com/2011/09/css3-element-wiggle-with-keyframes/*/
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+    0% {-webkit-transform:rotate(94deg);}
+    50% {-webkit-transform:rotate(90deg);}
+    100% {-webkit-transform:rotate(94deg);}
+}
+/* firefox */
+@-moz-keyframes wiggle {
+    0% {-moz-transform:rotate(94deg);}
+    50% {-moz-transform:rotate(90deg);}
+    100% {-moz-transform:rotate(94deg);}
+}
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+    0% {transform:rotate(94deg);}
+    50% {transform:rotate(90deg);}
+    100% {transform:rotate(94deg);}
+}
+.wiggler:hover {
+    -webkit-animation: wiggle 0.3s infinite;
+    -moz-animation: wiggle 0.3s infinite;
+    animation: wiggle 0.3s infinite;
+}
+/*MEDIA QUERIES*/
+@media (min-width: 600px) {
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 800px) {
+    ul li {
+        display: inline;
+        padding: 5px 4%;
+    }
+    ul {
+        text-align: center;
+    }
+    section img {
+        max-width: 190px;
+    }
+}
+@media (min-width: 900px) {
+    section article {
+        width: calc(100% / 3 - 2%);
+        margin: 10px 1%;
+        float: left;
+    }
+    /*CLEAR FIX*/
+    #sectioncontainer::after {
+        content: ' ';
+        clear: both;
+        display: block;
+    }
+}
+@media (min-width: 1000px) {
+    footer img:nth-of-type(2) {
+        display: block;
+        position: absolute;
+        width: 10%;
+        max-width: 200px;
+        padding: 2% 20%;
+    }
+    footer img:nth-of-type(3) {
+        display: block;
+        position: absolute;
+        width: 10%;
+        max-width: 200px;
+        float: right;
+        padding: 2% 60%;
+    }
+}

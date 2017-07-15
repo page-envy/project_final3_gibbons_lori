@@ -25,8 +25,10 @@ font-family: 'Nosifer', cursive;
 Headlines and p:
 font-family: 'Montserrat', sans-serif;
 */
-/* SECTION  2.0 -----------------------------*/
-/* DOCUMENT SETUP -----------------------------*/
+
+/* SECTION  2.0 ----------------------------- */
+
+/* DOCUMENT SETUP ----------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -36,17 +38,39 @@ font-family: 'Montserrat', sans-serif;
 html {
     box-sizing: border-box;
 }
-article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-    display:block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+    display: block;
 }
-article, aside, details, figcaption, figure, main, nav, section, summary {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+main,
+nav,
+section,
+summary {
     margin: 10px 10px;
 }
+
 #sitecontainer {
     max-width: 1300px;
     margin: auto;
 }
-/*BUTTON STYLING*/
+
+/* BUTTON STYLING */
 .button {
     display: block;
     margin: auto;
@@ -60,33 +84,44 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
 .buttonappearance {
     background-color: #bc1919;
     color: white;
     border: 2px solid #bc1919;
     margin-bottom: 10px;
 }
+
 .buttonappearance:hover {
     background-color: rgb(232, 107, 90);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
-/*LINK ATTRIBUTES*/
+
+/* LINK ATTRIBUTES */
 a {
     text-decoration: none;
 }
-a:link, a:visited{
+
+a:link,
+a:visited {
     color: #9a9e08;
 }
-a:hover, a:active {
-    color: #bc1919
+
+a:hover,
+a:active {
+    color: #bc1919;
 }
-/*Paragraph link hover background color
-https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more*/
+
+/* Paragraph link hover background color
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more */
+
 p a:link {
     color: black;
     border-bottom: 3px solid #bc1919;
 }
-p a:hover, p a:active {
+
+p a:hover,
+p a:active {
     color: white;
     background-color: rgb(187, 25, 25);
     -webkit-transform: scaleX(0);
@@ -94,14 +129,17 @@ p a:hover, p a:active {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
-/* SECTION  3.0 -----------------------------*/
-/* NAVIGATION STYLING -----------------------------*/
-/*
-/*Menu underline effect  http://tobiasahlin.com/blog/css-trick-animating-link-underlines/  */
+
+/* SECTION  3.0 ----------------------------- */
+
+/* NAVIGATION STYLING ----------------------------- */
+
+/* Menu underline effect  http://tobiasahlin.com/blog/css-trick-animating-link-underlines/  */
 nav ul li a {
     position: relative;
 }
-nav ul li a:before {
+
+nav ul li a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -115,151 +153,189 @@ nav ul li a:before {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
-nav ul li a:hover:before {
+
+nav ul li a:hover::before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
-/*FONTS*/
+
+/* FONTS */
 nav ul li a {
     font-family: 'Megrim', cursive;
     font-weight: bolder;
     font-size: 2rem;
 }
-nav ul li a:link, nav ul li a:visited{
+
+nav ul li a:link,
+nav ul li a:visited {
     color: black;
 }
-/* SECTION  3.1 -----------------------------*/
-/* GENERAL ELEMENT STYLING -----------------------------*/
+
+/* SECTION  3.1 ----------------------------- *
+/
+/* GENERAL ELEMENT STYLING ----------------------------- */
+
 h1 {
     display: none;
     font-family: 'Montserrat', sans-serif;
 }
+
 h2 {
     font-size: 2rem;
     padding: 10px;
     font-family: 'Nosifer', cursive;
     text-align: center;
 }
+
 nav h2 {
     display: none;
 }
+
 h3 {
     font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
+
 h4 {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
+
 p,
 time {
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
-/* SECTION  4.0 -----------------------------*/
-/* HEADER STYLING -----------------------------*/
+
+/* SECTION  4.0 ----------------------------- *
+/
+/* HEADER STYLING ----------------------------- */
+
 html {
     background-color: #dbdbda;
 }
-/*Parallax instructions:
-https://www.w3schools.com/howto/howto_css_parallax.asp*/
+
+/* Parallax instructions:
+https://www.w3schools.com/howto/howto_css_parallax.asp */
+
 .parallax {
     background-image: url('../img/woodbackground.png');
     width: 100%;
     padding-bottom: 15px;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
 }
+
 nav ul li {
     text-align: center;
     list-style: none;
 }
+
 nav ul li a {
     text-decoration: none;
     color: black;
 }
+
 nav ul li a:hover {
     color: #bc1919;
 }
-header img:nth-of-type(1){
+
+header img:nth-of-type(1) {
     display: block;
     margin: auto;
     width: 100%;
     max-width: 550px;
 }
-header img:nth-of-type(2){
+
+header img:nth-of-type(2) {
     display: block;
     margin: auto;
     max-width: 550px;
 }
-/* SECTION  5.0 -----------------------------*/
-/* SECTIONS STYLING -----------------------------*/
+
+/* SECTION  5.0 ----------------------------- */
+
+/* SECTIONS STYLING ----------------------------- */
 #sectioncontainer {
     margin: auto;
     padding-top: 15px;
 }
+
 section article {
     background-color: white;
     width: 90%;
     display: block;
     margin: 10px 5%;
 }
+
 section article img {
     width: 30%;
     display: block;
     margin: auto;
 }
+
 iframe {
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
 }
+
 iframe:nth-of-type(1) {
     display: block;
 }
+
 iframe:nth-of-type(2) {
     display: none;
 }
+
 /* FORM  */
 
 input {
     padding: 1rem 0;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     width: 100%;
     display: block;
     font-family: 'Montserrat', sans-serif;
     color: #9a9e08;
 }
-/* SECTION  6.0 -----------------------------*/
-/* FOOTER STYLING -----------------------------*/
+
+/* SECTION  6.0 ----------------------------- */
+
+/* FOOTER STYLING ----------------------------- */
 #footercontainer {
     padding: 20px;
 }
+
 footer {
     background-color: #262727;
     position: relative;
 }
+
 #address {
     width: 60%;
     float: left;
     display: block;
     margin: 2% auto;
 }
+
 footer p {
     color: white;
     text-align: center;
     line-height: 4px;
     font-size: 0.6rem;
 }
+
 footer h2 {
     font-size: 1rem;
     color: white;
     line-height: 25px;
     color: #9a9e08;
 }
+
 footer img:nth-of-type(1) {
     width: 20%;
     max-width: 200px;
@@ -269,10 +345,12 @@ footer img:nth-of-type(1) {
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
 }
+
 footer img:nth-of-type(2) {
     display: none;
     width: 0%;
 }
+
 footer img:nth-of-type(3) {
     display: none;
     width: 0%;
@@ -280,6 +358,7 @@ footer img:nth-of-type(3) {
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
 }
+
 footer img:nth-of-type(4) {
     width: 20%;
     max-width: 200px;
@@ -289,38 +368,46 @@ footer img:nth-of-type(4) {
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
 }
-/*CLEAR FIX*/
+
+/* CLEAR FIX */
 #footercontainer::after {
     content: ' ';
     clear: both;
     display: block;
 }
-/*WIGGLER https://harrybailey.com/2011/09/css3-element-wiggle-with-keyframes/*/
+
+/* WIGGLER https://harrybailey.com/2011/09/css3-element-wiggle-with-keyframes/ */
+
 /* safari and chrome */
 @-webkit-keyframes wiggle {
-    0% {-webkit-transform:rotate(94deg);}
-    50% {-webkit-transform:rotate(90deg);}
-    100% {-webkit-transform:rotate(94deg);}
+    0% {-webkit-transform: rotate(94deg);}
+    50% {-webkit-transform: rotate(90deg);}
+    100% {-webkit-transform: rotate(94deg);}
 }
+
 /* firefox */
 @-moz-keyframes wiggle {
-    0% {-moz-transform:rotate(94deg);}
-    50% {-moz-transform:rotate(90deg);}
-    100% {-moz-transform:rotate(94deg);}
+    0% {-moz-transform: rotate(94deg);}
+    50% {-moz-transform: rotate(90deg);}
+    100% {-moz-transform: rotate(94deg);}
 }
+
 /* anyone brave enough to implement the ideal method */
 @keyframes wiggle {
-    0% {transform:rotate(94deg);}
-    50% {transform:rotate(90deg);}
-    100% {transform:rotate(94deg);}
+    0% {transform: rotate(94deg);}
+    50% {transform: rotate(90deg);}
+    100% {transform: rotate(94deg);}
 }
+
 .wiggler:hover {
     -webkit-animation: wiggle 0.3s infinite;
     -moz-animation: wiggle 0.3s infinite;
     animation: wiggle 0.3s infinite;
 }
-/* SECTION  7.0 -----------------------------*/
-/* MEDIA QUERIES -----------------------------*/
+
+/* SECTION  7.0 ----------------------------- */
+
+/* MEDIA QUERIES ----------------------------- */
 @media (min-width: 600px) {
     footer p {
         font-size: 0.8rem;
@@ -339,10 +426,10 @@ footer img:nth-of-type(4) {
     }
 }
 @media (min-width: 900px) {
-    iframe:nth-of-type(1){
+    iframe:nth-of-type(1) {
         display: none;
     }
-    iframe:nth-of-type(2){
+    iframe:nth-of-type(2) {
         display: block;
     }
     section article {
@@ -350,7 +437,8 @@ footer img:nth-of-type(4) {
         margin: 10px 1%;
         float: left;
     }
-    /*CLEAR FIX*/
+
+    /* CLEAR FIX */
     #sectioncontainer::after {
         content: ' ';
         clear: both;

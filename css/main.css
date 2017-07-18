@@ -302,6 +302,22 @@ iframe:nth-of-type(2) {
     display: none;
 }
 
+article div {
+    float: left;
+    width: 50%;
+}
+
+figure {
+    display: block;
+    margin: auto;
+    width: 50%;
+    float: left;
+}
+
+#contactUs figure img {
+    width: 74%;
+}
+
 /* FORM  */
 input {
     padding: 1rem 0;

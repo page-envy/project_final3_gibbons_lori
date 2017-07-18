@@ -61,8 +61,9 @@ figure,
 main,
 nav,
 section,
-summary {
-    margin: 10px 10px;
+summary,
+div {
+    margin: 0;
 }
 
 #sitecontainer {
@@ -302,21 +303,8 @@ iframe:nth-of-type(2) {
     display: none;
 }
 
-article div {
-    float: left;
-    width: 50%;
-}
+contact
 
-figure {
-    display: block;
-    margin: auto;
-    width: 50%;
-    float: left;
-}
-
-#contactUs figure img {
-    width: 74%;
-}
 
 /* FORM  */
 input {
@@ -394,12 +382,7 @@ footer img:nth-of-type(4) {
     transform: rotate(90deg);
 }
 
-/* CLEAR FIX */
-.clearfix::after {
-    content: ' ';
-    clear: both;
-    display: block;
-}
+
 
 /* WIGGLER https://harrybailey.com/2011/09/css3-element-wiggle-with-keyframes/ */
 
@@ -433,6 +416,29 @@ footer img:nth-of-type(4) {
 /* SECTION  7.0 ----------------------------- */
 
 /* MEDIA QUERIES ----------------------------- */
+@media (min-width: 500px) {
+
+    /* CLEAR FIX */
+
+    .clearfix::after {
+        content: ' ';
+        clear: both;
+        display: block;
+    }
+    article div {
+        float: left;
+        width: 50%;
+    }
+    figure {
+        display: block;
+        margin: auto;
+        width: 50%;
+        float: left;
+    }
+    #contactUs figure img {
+        width: 64%;
+    }
+}
 @media (min-width: 600px) {
     footer p {
         font-size: 0.8rem;

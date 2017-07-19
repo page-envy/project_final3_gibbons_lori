@@ -297,9 +297,8 @@ header img:nth-of-type(2) {
 
 section article {
     background-color: white;
-    width: 90%;
-    display: block;
-    margin: 10px 5%;
+    width: 100%;
+    padding: 5% 5%;
 }
 
 section article img {

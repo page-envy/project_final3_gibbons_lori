@@ -1,4 +1,4 @@
-/*TABLE OF CONTENTS
+/* TABLE OF CONTENTS
 1.0 STYLING REMINDERS
 2.0 DOCUMENT SETUP
 3.0 NAVIGATION STYLING
@@ -8,10 +8,11 @@
 6.0 FOOTER STYLING
 7.0 MEDIA QUERIES
 
-/* SECTION  1.0 -----------------------------*/
-/* STYLING REMINDERS -----------------------------*/
-/*
-DOCUMENT COLORS:::
+/* SECTION  1.0 ----------------------------- */
+
+/* STYLING REMINDERS ----------------------------- */
+
+/* DOCUMENT COLORS:::
 Green						9a9e08     9a9e08
 Light Green			cad309    202	211	9
 Red							bc1919    188 25 25
@@ -61,8 +62,9 @@ figure,
 main,
 nav,
 section,
-summary {
-    margin: 10px 10px;
+summary,
+div {
+    margin: 0;
 }
 
 #sitecontainer {
@@ -113,6 +115,10 @@ a:visited {
 
 a:hover,
 a:active {
+    color: #bc1919;
+}
+
+#activeNav {
     color: #bc1919;
 }
 
@@ -302,6 +308,9 @@ iframe:nth-of-type(2) {
     display: none;
 }
 
+contact
+
+
 /* FORM  */
 input {
     padding: 1rem 0;
@@ -378,12 +387,7 @@ footer img:nth-of-type(4) {
     transform: rotate(90deg);
 }
 
-/* CLEAR FIX */
-.clearfix::after {
-    content: ' ';
-    clear: both;
-    display: block;
-}
+
 
 /* WIGGLER https://harrybailey.com/2011/09/css3-element-wiggle-with-keyframes/ */
 
@@ -417,6 +421,29 @@ footer img:nth-of-type(4) {
 /* SECTION  7.0 ----------------------------- */
 
 /* MEDIA QUERIES ----------------------------- */
+@media (min-width: 500px) {
+
+    /* CLEAR FIX */
+
+    .clearfix::after {
+        content: ' ';
+        clear: both;
+        display: block;
+    }
+    article div {
+        float: left;
+        width: 50%;
+    }
+    figure {
+        display: block;
+        margin: auto;
+        width: 50%;
+        float: left;
+    }
+    #contactUs figure img {
+        width: 64%;
+    }
+}
 @media (min-width: 600px) {
     footer p {
         font-size: 0.8rem;
@@ -445,6 +472,10 @@ footer img:nth-of-type(4) {
         width: calc(100% / 3 - 2%);
         margin: 10px 1%;
         float: left;
+    }
+
+    #contactUs figure img {
+        width: 100%;
     }
 
     /* CLEAR FIX */

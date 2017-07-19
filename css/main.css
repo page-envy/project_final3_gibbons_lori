@@ -118,6 +118,10 @@ a:active {
     color: #bc1919;
 }
 
+#activeNav {
+    color: #bc1919;
+}
+
 /* Paragraph link hover background color
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more */
 

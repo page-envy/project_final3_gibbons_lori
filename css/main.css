@@ -72,6 +72,13 @@ div {
     margin: auto;
 }
 
+/* CLEAR FIX */
+.clearfix::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
 /* BUTTON STYLING */
 .button {
     display: block;

@@ -293,12 +293,12 @@ header img:nth-of-type(2) {
 
 /* MENU */
 .menuContainer {
-    background-color: rgb(103, 107, 107);
+    background-color: rgb(140, 140, 140);
     color: #9a9e08;
 }
 
 .menuContainer article {
-    background-color: rgb(233, 233, 233);
+    background-color: transparent;
     color: rgb(221, 230, 219);
 }
 
@@ -474,6 +474,11 @@ footer img:nth-of-type(4) {
 @media (min-width: 615px) {
     section article {
         width: calc(100% / 3 - 2%);
+        margin: 10px 1%;
+        float: left;
+    }
+    .menuContainer article {
+        width: calc(100% / 2 - 2%);
         margin: 10px 1%;
         float: left;
     }

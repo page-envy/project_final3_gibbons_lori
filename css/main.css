@@ -477,6 +477,10 @@ footer img:nth-of-type(4) {
         margin: 10px 1%;
         float: left;
     }
+    .reserve-div {
+        clear: both;
+    }
+
     footer p {
         font-size: 0.9rem;
     }
@@ -487,6 +491,7 @@ footer img:nth-of-type(4) {
     ul {
         text-align: center;
     }
+
 }
 
 @media (min-width: 900px) {
@@ -499,13 +504,6 @@ footer img:nth-of-type(4) {
 
     #contactUs figure img {
         width: 100%;
-    }
-
-    /* CLEAR FIX */
-    .clearfix::after {
-        content: ' ';
-        clear: both;
-        display: block;
     }
 }
 @media (min-width: 1000px) {

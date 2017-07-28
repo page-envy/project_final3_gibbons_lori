@@ -104,7 +104,6 @@ div {
     background-color: #bc1919;
     color: white;
     border: 2px solid #bc1919;
-    margin-bottom: 10px;
 }
 
 .buttonappearance:hover {
@@ -310,7 +309,7 @@ header img:nth-of-type(2) {
 section article {
     background-color: white;
     width: 100%;
-    padding: 5% 5%;
+    padding: 2%;
 }
 
 section article img {
@@ -319,7 +318,9 @@ section article img {
     margin: auto;
 }
 
-
+.reserve-div {
+    margin: 2%;
+}
 
 /* MAP */
 iframe {

@@ -471,6 +471,11 @@ footer img:nth-of-type(4) {
     }
 }
 @media (min-width: 615px) {
+    section article {
+        width: calc(100% / 3 - 2%);
+        margin: 10px 1%;
+        float: left;
+    }
     footer p {
         font-size: 0.9rem;
     }
@@ -489,11 +494,6 @@ footer img:nth-of-type(4) {
     }
     iframe:nth-of-type(2) {
         display: block;
-    }
-    section article {
-        width: calc(100% / 3 - 2%);
-        margin: 10px 1%;
-        float: left;
     }
 
     #contactUs figure img {

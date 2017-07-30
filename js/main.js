@@ -4,5 +4,5 @@ $(document).ready(function() {
         animation: 'swing',
         maxWidth: 180
     });
-    $('.background-image').backstretch('img/eyeball.svg');
+    $.backstretch("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
 });

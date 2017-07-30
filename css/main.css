@@ -245,11 +245,11 @@ time {
 /* SECTION  4.0 ----------------------------- *
 /
 /* HEADER STYLING ----------------------------- */
-
+/*
 html {
     background-color: #dbdbda;
 }
-
+*/
 /* Parallax instructions:
 https://www.w3schools.com/howto/howto_css_parallax.asp */
 
@@ -338,7 +338,6 @@ iframe:nth-of-type(1) {
 iframe:nth-of-type(2) {
     display: none;
 }
-
 
 /* FORM  */
 input {
@@ -492,7 +491,6 @@ footer img:nth-of-type(4) {
     .reserve-div {
         clear: both;
     }
-
     footer p {
         font-size: 0.9rem;
     }
@@ -503,9 +501,7 @@ footer img:nth-of-type(4) {
     ul {
         text-align: center;
     }
-
 }
-
 @media (min-width: 900px) {
     iframe:nth-of-type(1) {
         display: none;

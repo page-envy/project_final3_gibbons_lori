@@ -239,7 +239,7 @@ h3 {
 h4 {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 p,
@@ -367,6 +367,11 @@ input {
     display: block;
     font-family: 'Montserrat', sans-serif;
     color: #bc1919;
+}
+
+/* IMAGE GALLERY */
+.about-container img {
+    width: 40%;
 }
 
 /* SECTION  6.0 ----------------------------- */

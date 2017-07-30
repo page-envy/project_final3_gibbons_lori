@@ -503,10 +503,19 @@ footer img:nth-of-type(4) {
         margin: 10px 1%;
         float: left;
     }
-    .about-container {
+    .image-gallery {
+        display: block;
+        margin: auto;
+    }
+    .about-container,
+    .image-gallery {
         width: 80%;
         float: none;
         margin: auto;
+    }
+    .image-gallery img {
+        float: left;
+        width: 50%;
     }
     .menuContainer article {
         width: calc(100% / 2 - 2%);

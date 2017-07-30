@@ -154,6 +154,10 @@ p a:active {
     transition: all 0.3s ease-in-out 0s;
 }
 
+.menuContainer p a:link {
+    color: white;
+}
+
 /* SECTION  3.0 ----------------------------- */
 
 /* NAVIGATION STYLING ----------------------------- */

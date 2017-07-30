@@ -1,8 +1,8 @@
 //Javascript Code
 //This should flip between two images upon hover of image in header in contact page
-var phoneImage = document.images[1];
+var phoneImage = document.getElementById('monsterPhonePic');
 
-var phoneImageWithFood = document.images[2];
+var phoneImageWithFood = document.getElementById('monsterPhonePicWithFood');
 
 phoneImage.addEventListener('mouseover', function() {
     phoneImage.className = 'hide';

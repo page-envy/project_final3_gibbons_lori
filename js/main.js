@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    $('.tooltip').tooltipster();
+    $('.tooltip').tooltipster({
+        theme: 'tooltipster-light',
+        animation: 'swing',
+        maxWidth: 180
+    });
 });

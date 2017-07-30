@@ -189,6 +189,10 @@ nav ul li a:hover::before {
 }
 
 /* FONTS */
+.onHoverRed {
+    color: red;
+}
+
 nav ul li a {
     font-family: 'Megrim', cursive;
     font-weight: bolder;
@@ -316,8 +320,9 @@ nav ul li a:hover {
 
 .menuContainer article {
     background-color: transparent;
-    color: rgb(221, 230, 219);
+    color: rgb(255, 255, 250);
 }
+
 
 #sectioncontainer {
     margin: auto;
@@ -502,6 +507,9 @@ footer img:nth-of-type(4) {
         width: calc(100% / 2 - 2%);
         margin: 10px 1%;
         float: left;
+    }
+    .menuContainer article:nth-child(even) {
+        border-right: #9a9e08 solid 1px;
     }
     .reserve-div {
         clear: both;

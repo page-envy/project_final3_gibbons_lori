@@ -372,6 +372,7 @@ input {
 /* IMAGE GALLERY */
 .about-container img {
     width: 40%;
+    padding: 4%;
 }
 
 /* SECTION  6.0 ----------------------------- */

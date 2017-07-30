@@ -279,16 +279,22 @@ nav ul li a:hover {
     color: #bc1919;
 }
 
-header img:nth-of-type(1) {
+header img:nth-of-type(1),
+header img:nth-of-type(2) {
     display: block;
     margin: auto;
     width: 100%;
     max-width: 550px;
 }
 
-header img:nth-of-type(2) {
+.hide {
+    display: none;
+}
+
+.show {
     display: block;
     margin: auto;
+    width: 100%;
     max-width: 550px;
 }
 

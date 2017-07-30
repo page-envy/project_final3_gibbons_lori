@@ -370,9 +370,14 @@ input {
 }
 
 /* IMAGE GALLERY */
+.image-gallery {
+    width: 100%;
+}
 .about-container img {
-    width: 40%;
+    width: 80%;
     padding: 4%;
+    display: block;
+    margin: auto;
 }
 
 /* SECTION  6.0 ----------------------------- */
@@ -496,6 +501,9 @@ footer img:nth-of-type(4) {
     }
     #contactUs figure img {
         width: 64%;
+    }
+    .image-gallery img {
+        width: 70%;
     }
 }
 @media (min-width: 615px) {

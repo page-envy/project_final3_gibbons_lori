@@ -508,8 +508,8 @@ footer img:nth-of-type(4) {
     }
 }
 @media (min-width: 615px) {
-    .contactUs, .reservations {
-        font-size: 1rem;
+    .contactUs h2, .reservations h2 {
+        font-size: 2vw;
     }
     section article {
         width: calc(100% / 3 - 2%);

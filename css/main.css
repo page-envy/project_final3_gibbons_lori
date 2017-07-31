@@ -500,7 +500,7 @@ footer img:nth-of-type(4) {
         width: 50%;
         float: left;
     }
-    #contactUs figure img {
+    .contactUs figure img {
         width: 64%;
     }
     .image-gallery img {
@@ -508,6 +508,9 @@ footer img:nth-of-type(4) {
     }
 }
 @media (min-width: 615px) {
+    .contactUs, .reservations {
+        font-size: 1rem;
+    }
     section article {
         width: calc(100% / 3 - 2%);
         margin: 10px 1%;
@@ -560,7 +563,7 @@ footer img:nth-of-type(4) {
         width: 60%;
     }
 
-    #contactUs figure img {
+    .contactUs figure img {
         width: 100%;
     }
 }

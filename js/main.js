@@ -1,7 +1,7 @@
 //Custom Javascript Code
 //This should flip between two images upon hover of image in header in contact page
-var phoneImage = document.getElementById('monsterPhonePic');
-
+// var phoneImage = document.getElementById('monsterPhonePic');
+//
 var phoneImageWithFood = document.getElementById('monsterPhonePicWithFood');
 
 phoneImage.addEventListener('mouseover', function () {
@@ -15,12 +15,31 @@ phoneImageWithFood.addEventListener('mouseleave', function () {
 
 //JQuery Code
 $(document).ready(function () {
+    //Top to Bottom Plugin, Elevator
+    //http://www.jqueryscript.net/animation/jQuery-Plugin-For-Scroll-To-Top-Bottom-Buttons-elevator.html
+    $.elevator({
+        show_top: true,
+        show_bottom: true,
+        margin: 100,
+        speed: 1000,
+        glass: false
+    });
+
+
+
+
+
+
     //ToolTip Plugin
     //One of the required two to use
-    // $('.tooltip').tooltipster({
-    //     animation: 'swing',
-    //     maxWidth: 180
-    // });
+    $('.tooltip').tooltipster({
+        animation: 'swing',
+        maxWidth: 180
+    });
+
+
+
+
     //Backstretch Plugin
     //Second of the two required to use
     $('#background-image').backstretch('http://dl.dropbox.com/u/515046/www/garfield-interior.jpg');
@@ -34,7 +53,8 @@ $(document).ready(function () {
     });
 
 
-    // $('p').hover(
+    // TESTING
+    //$('p').hover(
     //     function(
     //          $( 'h3' ).append( $( "<span> ***</span>" ) );
     //     ) {},
